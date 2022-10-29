@@ -1,0 +1,103 @@
+.sideNav{
+    position: fixed;
+    background-color:black;
+    width: 330px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999999999;
+}
+body{
+    background-color: #0D0D0D;
+}
+.navCaption span{
+    cursor: pointer;
+}
+.nav-Icon i{
+    cursor: pointer;
+}
+.innerNav{
+    width: 50px;
+}
+.innerNav i{
+    cursor: pointer;
+}
+.close{
+    display:none;
+}
+.nav-content{
+    display: none;
+}
+.mealLayer{
+    top: 150%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.774);
+    transition: all 0.7s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.homeMeal{
+    cursor: pointer;
+    overflow: hidden;
+}
+.homeMeal:hover .mealLayer{
+    top: 0;
+}
+.reloadlayer{
+    z-index: 999999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    overflow: hidden;
+}
+.recipes{
+    background-color: #D4EDDA;
+    height: 30px;
+}
+.tags{
+    background-color: #F8D7DA;
+    height: 30px;
+}
+.Search input::placeholder{
+    text-align: center;
+}
+.areaDiv{
+    box-shadow: 2px 2px 20px  black;
+    cursor: pointer;
+}
+.innerIngredients{
+    overflow: hidden;
+    box-shadow: 2px 2px 20px  black;
+    cursor: pointer;
+    height: 230px;
+}
+.innerIngredients p{
+    height: 45px;
+}
+
+.form-group input {
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.1)!important;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+}
+.input input::placeholder{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
